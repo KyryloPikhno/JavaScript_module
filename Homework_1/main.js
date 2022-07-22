@@ -61,7 +61,7 @@ let firstNamePerson = prompt('Hello:) What is your name?');
 console.log(firstNamePerson);
 let lastNamePerson = prompt('Ok. What is your last name?)');
 console.log(lastNamePerson);
-let yearsPerson = prompt('Goog! How old are you?)');
+let yearsPerson = +prompt('Goog! How old are you?)');
 console.log(yearsPerson);
 
 
