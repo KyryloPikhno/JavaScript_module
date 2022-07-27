@@ -42,7 +42,16 @@ const someBookOne = {
     title: 'book one',
     pageCount: 500,
     genre: 'roman',
-    authors: ['name', 'age']
+    authors: [
+        {
+            name: 'Tolik',
+            age: 21
+        },
+        {
+            name: 'Liha',
+            age: 23
+        }
+    ],
 };
 // console.log(someBookOne);
 
@@ -50,7 +59,16 @@ const someBookTwo = {
     title: 'book two',
     pageCount: 250,
     genre: 'drama',
-    authors: ['name, age']
+    authors: [
+        {
+            name: 'Nastia',
+            age: 45,
+        },
+        {
+            name: 'Serega',
+            age: 40,
+        }
+    ],
 };
 // console.log(someBookTwo);
 
@@ -58,7 +76,16 @@ const someBookThree = {
     title: 'book three',
     pageCount: 530,
     genre: 'comedy',
-    authors: ['name', 'age']
+    authors: [
+        {
+            name: 'Vasia',
+            age: 75
+        },
+        {
+            name: 'Vika',
+            age: 32,
+        }
+    ],
 };
 // console.log(someBookThree);
 
