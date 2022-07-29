@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4026844f-fc39-4adc-bc93-60884e932179" name="Changes" comment="My commit">
+      <change afterPath="$PROJECT_DIR$/Homework_3_(logical branches)/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_3_(logical branches)/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_2_(array in array)/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_2_(array in array)/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +26,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2CIbCnBDx4M3QqP1w8m0L0O5haz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,7 +51,10 @@
       <option name="presentableId" value="Default" />
       <updated>1658492929722</updated>
       <workItem from="1658492931708" duration="9857000" />
-      <workItem from="1658930349828" duration="5447000" />
+      <workItem from="1658930349828" duration="5736000" />
+      <workItem from="1659035991563" duration="1283000" />
+      <workItem from="1659095897276" duration="12630000" />
+      <workItem from="1659110858295" duration="347000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1658512493244</created>
@@ -85,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658934872722</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="My commit">
+      <created>1658935970840</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658935970840</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
