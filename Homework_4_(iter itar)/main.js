@@ -95,7 +95,7 @@ let products = [
     },
 ];
 
- for( product in products){
+ for( product of products){
      let title = products[product].title;
      let price = products[product].price;
      let image = products[product].image;
