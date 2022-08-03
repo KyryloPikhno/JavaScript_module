@@ -143,7 +143,7 @@ let users = [
     {name: 'max', age: 31, status: true}
 ];
 
- for ( let user in users){
+ for ( let user of users){
      let name = users[user].name
      if(users[user].status){
          document.write(`<h3>${name}</h3>`)
@@ -152,7 +152,7 @@ let users = [
 
 document.write('--------------------------------- TASK 6.2 ---------------------------------')
 
-for (let user in users){
+for (let user of users){
     let name = users[user].name;
     if(!users[user].status){
         document.write(`<h3>${name}</h3>`);
@@ -161,7 +161,7 @@ for (let user in users){
 
 document.write('--------------------------------- TASK 6.3 ---------------------------------')
 
-for( let user in users) {
+for( let user of users) {
     let name = users[user].name;
     if (users[user].age > 30) {
         document.write(`<h3>${name}</h3>`);
