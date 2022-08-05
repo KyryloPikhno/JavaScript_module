@@ -1,0 +1,26 @@
+.container{
+}
+
+.targetId{
+    color: dimgrey;
+    font-size: 10px;
+}
+
+.box{
+    background: darkgray;
+    width: 180px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px;
+    transition: 1.5s;
+}
+
+.box:hover {
+    width: 195px;
+    transition: 1s;
+    background: beige;
+}
