@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4026844f-fc39-4adc-bc93-60884e932179" name="Changes" comment="My commit">
-      <change afterPath="$PROJECT_DIR$/Homework_5_(functions)/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework_5_(functions)/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework_5_(functions)/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_4_(iter itar)/additional task/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_4_(iter itar)/additional task/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_4_(iter itar)/additional task/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_4_(iter itar)/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_4_(iter itar)/task /index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_4_(iter itar)/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_4_(iter itar)/task /main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_4_(iter itar)/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_4_(iter itar)/task /style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +48,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Homework_4_(iter itar)/task " />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,7 +71,9 @@
       <workItem from="1659702295591" duration="115000" />
       <workItem from="1659702443731" duration="12000" />
       <workItem from="1659702503696" duration="15478000" />
-      <workItem from="1659736438120" duration="4760000" />
+      <workItem from="1659736438120" duration="4956000" />
+      <workItem from="1659805675171" duration="5927000" />
+      <workItem from="1659813405889" duration="4576000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1658512493244</created>
@@ -156,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659547194868</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="My commit">
+      <created>1659741352421</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1659741352423</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
