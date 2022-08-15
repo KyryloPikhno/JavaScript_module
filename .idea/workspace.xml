@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4026844f-fc39-4adc-bc93-60884e932179" name="Changes" comment="My commit">
+      <change afterPath="$PROJECT_DIR$/Homework_6_(array functions)/additional task 2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_6_(array functions)/additional task 2/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework_6_(array functions)/additional task/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_6_(array functions)/additional task/main.js" afterDir="false" />
     </list>
@@ -78,7 +80,7 @@
       <workItem from="1660515532019" duration="3209000" />
       <workItem from="1660553201985" duration="600000" />
       <workItem from="1660562382380" duration="636000" />
-      <workItem from="1660567782160" duration="2898000" />
+      <workItem from="1660567782160" duration="7937000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1658512493244</created>
@@ -213,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660428351523</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="My commit">
+      <created>1660570815163</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1660570815163</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
