@@ -208,7 +208,7 @@ for(let cinderella of cinderellas){
 
 //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
 
-let cinderella = cinderellas.find(value =>value.footSize === prince.slipper);
+let cinderella = cinderellas.find(cinderella => cinderella.footSize === prince.slipper);
 console.log(cinderella.name);
 
 
