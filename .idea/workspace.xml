@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4026844f-fc39-4adc-bc93-60884e932179" name="Changes" comment="My commit">
+      <change afterPath="$PROJECT_DIR$/Homework_7_(constructors, prototype, call, apply, bind, classes, extends)/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_7_(constructors, prototype, call, apply, bind, classes, extends)/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_6_(array functions)/additional task 2/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_6_(array functions)/additional task 2/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +81,8 @@
       <workItem from="1660562382380" duration="636000" />
       <workItem from="1660567782160" duration="7956000" />
       <workItem from="1660588720141" duration="435000" />
-      <workItem from="1660671709768" duration="840000" />
+      <workItem from="1660671709768" duration="2989000" />
+      <workItem from="1660733497636" duration="18222000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1658512493244</created>
@@ -236,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660671978748</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="My commit">
+      <created>1660673800620</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1660673800620</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
