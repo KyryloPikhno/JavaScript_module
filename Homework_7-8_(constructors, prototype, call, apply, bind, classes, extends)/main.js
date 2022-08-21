@@ -210,21 +210,3 @@ for(let cinderella of cinderellas){
 
 let cinderella = cinderellas.find(cinderella => cinderella.footSize === prince.slipper);
 console.log(cinderella.name);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
