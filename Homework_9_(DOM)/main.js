@@ -325,9 +325,9 @@ submit.onclick= function(e){
 
     for (let i = 0; i < +input1.value; i++) {
         let tr = document.createElement("tr");
-        tr.style.border = "2px solid black";
+        // tr.style.border = "2px solid black";
 
-        for (let j = 0; j < +input2.value; j++) {
+        for (let i = 0; i < +input2.value; i++) {
             let td = document.createElement("td");
             td.style.border = "2px solid black";
             td.innerText = content.value;
