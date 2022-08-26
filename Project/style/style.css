@@ -1,0 +1,143 @@
+body{
+    background: dimgrey;
+}
+
+.container{
+    width: 560px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px auto;
+    gap:18px;
+}
+
+.containerInfo,.containerForPostsInfo,.commentForPost{
+    background: black;
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 0;
+    border-radius: 15px;
+}
+
+.infoOfPost,.commentForPost{
+    padding: 25px;
+    margin: 0 auto;
+    transition: 0.2s;
+}
+
+.idAndName{
+    background: black;
+    width: 267px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.idAndName:hover,.boxForPostsOfUser:hover,.commentForPost:hover{
+    box-shadow: 2px 2px 25px chartreuse;
+    transition: 0.2s;
+}
+
+h3{
+    color: chartreuse;
+}
+
+p{
+    margin: 0;
+    color: chartreuse;
+}
+
+span{
+    color: darkgray;
+    font-size: 12px;
+}
+
+.infoOfUser p a,.commentForPost p a {
+    color: deepskyblue;
+}
+
+.button, .buttonShowPosts,.buttonShowComments{
+    width: 94px;
+    background: darkgray;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 2px;
+    font-size: 11px;
+    text-align: center;
+    transition: 1s;
+    border-radius: 15px;
+}
+
+.buttonShowPosts,.buttonShowComments{
+    width:90%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    background: black;
+    color: chartreuse;
+    font-size: 15px;
+}
+
+.button:hover,.buttonShowPosts:hover,.buttonShowComments:hover{
+    background: chartreuse;
+    color: black;
+    transition: 1s;
+    width: 99px;
+}
+
+.buttonShowPosts:hover,.buttonShowComments:hover{
+    width: 90%;
+}
+
+.containerHidden{
+    display: none;
+}
+
+.containerView,.containerViewComments{
+    display: flex;
+    width: 90%;
+    margin: 0 auto 20px;
+    color: chartreuse;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.commentForPost{
+    width: 200px;
+    height: 280px;
+}
+
+.boxForPostsOfUser{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 170px;
+    position: relative;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.boxForPostsOfUser div{
+    font-size: 20px;
+    text-align: center;
+    width:205px ;
+}
+
+.boxForPostsOfUser a{
+   position: absolute;
+   bottom: 10px;
+}
+
+
