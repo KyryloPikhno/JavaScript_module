@@ -74,6 +74,7 @@ span{
     text-align: center;
     transition: 1s;
     border-radius: 15px;
+    color: black;
 }
 
 .buttonShowPosts,.buttonShowComments{

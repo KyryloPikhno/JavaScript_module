@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4026844f-fc39-4adc-bc93-60884e932179" name="Changes" comment="My commit">
-      <change beforePath="$PROJECT_DIR$/Project/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project/style/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="4026844f-fc39-4adc-bc93-60884e932179" name="Changes" comment="My commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +90,7 @@
       <workItem from="1661158983361" duration="653000" />
       <workItem from="1661366684561" duration="1816000" />
       <workItem from="1661436927866" duration="29785000" />
-      <workItem from="1661515589409" duration="12226000" />
+      <workItem from="1661515589409" duration="12279000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1658512493244</created>
@@ -290,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661528205016</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="My commit">
+      <created>1661528512084</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1661528512084</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
