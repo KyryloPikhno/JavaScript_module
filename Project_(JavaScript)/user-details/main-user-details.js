@@ -48,7 +48,7 @@ fetch(`https://jsonplaceholder.typicode.com/users/${id}/posts`)
 
         let postTitlesOfUser = document.createElement('div');
             postTitlesOfUser.classList.add('postTitlesOfUser')
-            postTitlesOfUser.innerText = `${post.title}`;
+            postTitlesOfUser.innerText = `Title: ${post.title}`;
         boxForPostsOfUser.appendChild(postTitlesOfUser);
 
         let buttonPostDetails = document.createElement('a');
