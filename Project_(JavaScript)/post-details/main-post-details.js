@@ -38,7 +38,7 @@ fetch(`https://jsonplaceholder.typicode.com/posts/${id}/comments`)
         commentForPost.innerHTML = `<p>Post id: ${comment.postId}</p>
                                      <p>Comment id: ${comment.id}</p>
                                      <p>Name: ${comment.name}</p>
-                                     <p>Email: <a href="mailto: ${comment.email}">${comment.email}</a></p>
+                                     <p><a href="mailto:${comment.email}">${comment.email}</a></p>
                                      <p>Body: ${comment.body}</p>`
         containerForComments.appendChild(commentForPost);
     }));
