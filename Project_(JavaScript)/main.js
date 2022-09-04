@@ -13,7 +13,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
 
      let button = document.createElement('a')
      button.classList.add('button')
-      button.href = `../user-details/user-details.html?id=${user.id}`
+      button.href = `user-details/user-details.html?id=${user.id}`
      button.innerText = 'user details'
      idAndName.appendChild(button)
  }))
