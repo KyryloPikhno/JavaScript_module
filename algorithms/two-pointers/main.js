@@ -146,3 +146,81 @@ return false
 }
 
 hasPairWithSum([1, 2, 4, 6, 8], 10)
+
+
+function removeSpaces(string) {
+  // const arrStr = string.split("")
+  // const newArr = []
+
+  // for (let read = 0; read < arrStr.length; read++) {
+  //   if(arrStr[read] !== " "){
+  //     newArr.push(arrStr[read])
+  //   }
+  // }
+
+  // return newArr.join("")
+
+  const chars = string.split("");
+  let write = 0;
+
+  for (let read = 0; read < chars.length; read++) {
+    if (chars[read] !== " ") {
+      chars[write] = chars[read];
+      write++;
+    }
+  }
+
+  return chars.slice(0, write).join("");
+}
+
+removeSpaces(" a b  c ")
+
+
+function hasDuplicates(arr) {
+  // let left = 0
+  // let right = 1
+
+  // while(right < arr.length) {
+  //   if(arr[left] === arr[right]) return true
+
+  //   left++
+  //   right++
+  // }
+
+  // return false
+
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] === arr[i - 1]) return true;
+  }
+  return false;
+}
+
+hasDuplicates([1, 2, 2, 4, 5])
+
+
+function removeZeros(arr) {
+//   let write = 0
+//   const newArr = []
+
+//   for(let read = 0; read < arr.length; read++){
+//     if(arr[read] !== 0) {
+//       write = arr[read]  
+//       newArr.push(write)
+//     }
+//   }
+
+// return newArr
+
+let write = 0;
+
+for (let read = 0; read < arr.length; read++) {
+  if (arr[read] !== 0) {
+    arr[write] = arr[read];  
+    write++;
+  }
+}
+
+return arr.slice(0, write);
+}
+
+removeZeros([0, 1, 0, 3, 0, 5])
