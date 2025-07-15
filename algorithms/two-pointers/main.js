@@ -278,3 +278,35 @@ function hasThreeSum(arr, target) {
 }
 
 hasThreeSum([-2, 0, 1, 3], 2)
+
+function twoSumUniquePairs(arr, target) {
+  const result = [];
+  let left = 0;
+  let right = arr.length - 1;
+
+  while (left < right) {
+    const sum = arr[left] + arr[right];
+
+    if (sum === target) {
+      result.push([arr[left], arr[right]]);
+
+      const leftValue = arr[left];
+      while (left < right && arr[left] === leftValue) {
+        left++;
+      }
+
+      const rightValue = arr[right];
+      while (left < right && arr[right] === rightValue) {
+        right--;
+      }
+    } else if (sum < target) {
+      left++;
+    } else {
+      right--;
+    }
+  }
+
+  return result;
+}
+
+twoSumUniquePairs([1, 1, 2, 2, 3, 4, 5], 4)
