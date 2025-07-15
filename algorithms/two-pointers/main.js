@@ -211,16 +211,70 @@ function removeZeros(arr) {
 
 // return newArr
 
-let write = 0;
+  let write = 0;
 
-for (let read = 0; read < arr.length; read++) {
-  if (arr[read] !== 0) {
-    arr[write] = arr[read];  
-    write++;
+  for (let read = 0; read < arr.length; read++) {
+    if (arr[read] !== 0) {
+      arr[write] = arr[read];  
+      write++;
+    }
   }
-}
 
-return arr.slice(0, write);
+  return arr.slice(0, write);
 }
 
 removeZeros([0, 1, 0, 3, 0, 5])
+
+
+function removeTarget(arr, target) {
+  let write = 0
+
+  for(let read = 0; read < arr.length; read++) {
+    if(arr[read] !== target) {
+      arr[write] = arr[read]
+      write++
+    }
+  }
+
+  return arr.slice(0, write);
+}
+
+removeTarget([1, 2, 2, 3, 4, 4, 5], 4)
+
+
+function twoSumV2(arr, target) {
+  let left = 0
+  let right = arr.length - 1
+
+  while(left < right) {
+    const sum = arr[left] + arr[right]
+
+    if(sum === target) return [arr[left], arr[right]]
+    else if(sum < target) left++
+    else right--
+  }
+
+  return []
+}
+
+twoSumV2([1, 2, 3, 6, 10], 7)
+
+
+function hasThreeSum(arr, target) {
+  for(let i = 0; i < arr.length; i++) {
+    let left = 0
+    let right = arr.length - 1
+
+    while(left < right) {
+      const sum = arr[i] + arr[left] + arr[right]
+
+      if(sum === target) return true
+      else if(sum < target) left++
+      else right--
+    }
+  }
+
+  return false
+}
+
+hasThreeSum([-2, 0, 1, 3], 2)
