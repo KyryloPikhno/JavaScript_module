@@ -15,8 +15,6 @@ function maxSumSubarray(arr, k) {
     if (windowSum > maxSum) maxSum = windowSum;
   }
 
-  console.log(maxSum)
-
   return maxSum;
 }
 
@@ -41,3 +39,52 @@ function lengthOfLongestSubstring(s) {
 }
 
 lengthOfLongestSubstring("abcabcbb")
+
+
+function minSubArrayLen(target, nums) {
+  let left = 0;
+  let windowSum = 0;
+  let minLen = Infinity;
+
+  for (let right = 0; right < nums.length; right++) {
+    windowSum += nums[right];
+
+    while (windowSum >= target) {
+      minLen = Math.min(minLen, right - left + 1);
+      windowSum -= nums[left];
+      left++;
+    }
+  }
+
+  return minLen === Infinity ? 0 : minLen;
+}
+
+minSubArrayLen(7, [2, 3, 1, 2, 4, 3])
+
+
+function lengthOfLongestSubstringKDistinct(s, k) {
+  let left = 0;
+  let maxLen = 0;
+  const charCount = new Map();
+
+  for (let right = 0; right < s.length; right++) {
+    charCount.set(s[right], (charCount.get(s[right]) || 0) + 1);
+
+    while (charCount.size > k) {
+      const leftChar = s[left];
+      charCount.set(leftChar, charCount.get(leftChar) - 1);
+
+      if (charCount.get(leftChar) === 0) {
+        charCount.delete(leftChar);
+      }
+
+      left++;
+    }
+
+    maxLen = Math.max(maxLen, right - left + 1);
+  }
+
+  return maxLen;
+}
+
+console.log(lengthOfLongestSubstringKDistinct("eceba", 2))
