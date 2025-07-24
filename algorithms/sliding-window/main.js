@@ -21,3 +21,23 @@ function maxSumSubarray(arr, k) {
 }
 
 maxSumSubarray([2, 1, 5, 1, 3, 2], 3)
+
+
+function lengthOfLongestSubstring(s) {
+  let left = 0;
+  let maxLen = 0;
+  const seen = new Set();
+
+  for (let right = 0; right < s.length; right++) {
+    while (seen.has(s[right])) {
+      seen.delete(s[left]);
+      left++;
+    }
+    seen.add(s[right]);
+    maxLen = Math.max(maxLen, right - left + 1);
+  }
+
+  return maxLen;
+}
+
+lengthOfLongestSubstring("abcabcbb")
