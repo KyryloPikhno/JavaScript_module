@@ -110,21 +110,4 @@ function lengthOfLongestSubstring(s) {
 lengthOfLongestSubstring("abcabcbb")
 
 
-const mySet = new Set();
 
-mySet.add(1);
-mySet.add(2);
-mySet.add(2); 
-mySet.add("hello");
-
-mySet.clear()
-
-const myMap = new Map();
-
-let obj = { x: 1 };
-
-myMap.set("name", "Oleg");
-myMap.set(42, "answer");
-myMap.set(obj, { x: "lol" });
-
-console.log(myMap.get(obj)); 
