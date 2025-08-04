@@ -87,4 +87,44 @@ function lengthOfLongestSubstringKDistinct(s, k) {
   return maxLen;
 }
 
-console.log(lengthOfLongestSubstringKDistinct("eceba", 2))
+lengthOfLongestSubstringKDistinct("eceba", 2)
+
+
+function lengthOfLongestSubstring(s) {
+  let seen = new Set();
+  let left = 0;
+  let maxLen = 0;
+
+  for (let right = 0; right < s.length; right++) {
+    while (seen.has(s[right])) {
+      seen.delete(s[left]);
+      left++;
+    }
+    seen.add(s[right]);
+    maxLen = Math.max(maxLen, right - left + 1);
+  }
+
+  return maxLen;
+}
+
+lengthOfLongestSubstring("abcabcbb")
+
+
+const mySet = new Set();
+
+mySet.add(1);
+mySet.add(2);
+mySet.add(2); 
+mySet.add("hello");
+
+mySet.clear()
+
+const myMap = new Map();
+
+let obj = { x: 1 };
+
+myMap.set("name", "Oleg");
+myMap.set(42, "answer");
+myMap.set(obj, { x: "lol" });
+
+console.log(myMap.get(obj)); 
