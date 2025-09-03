@@ -1,12 +1,3 @@
-// 1	Two Pointers
-// 2	Sliding Window
-// 3	HashMap / Set
-// 4	Prefix Sum + Binary Search
-// 5	Stack / Queue
-// 6	DFS / BFS
-// 7	Sorting + Greedy
-// 8	Dynamic Programming (DP)
-
 <!-- algorithms/
 ├── basics/                   
 │   ├── searching/
@@ -21,12 +12,24 @@
 │   │   ├── factorial.js
 │   │   ├── fibonacci.js
 │   │   ├── nestedTraversal.js
-│   ├── data-structures/
-│   │   ├── stack.js
-│   │   ├── queue.js
-│   │   ├── hashmap.js
-│   │   ├── set.js
-│
+        data-structures/
+        ├── core/
+        │   ├── array.js
+        │   ├── stack.js
+        │   ├── queue.js
+        │   ├── deque.js
+        │   ├── linkedList.js
+        │   ├── doublyLinkedList.js
+        │   ├── hashmap.js
+        │   └── set.js
+        ├── trees/
+        │   ├── bst.js
+        │   ├── heap.js
+        │   └── trie.js
+        ├── graphs/
+        │   ├── graph.js
+        │   ├── directedGraph.js
+        │   └── weightedGraph.js
 ├── intermediate/             
 │   ├── two-pointers/
 │   │   ├── isPalindrome.js
