@@ -43,3 +43,5 @@ arr.push("World");
 console.log(arr.get(1)); // World
 arr.delete(0);
 console.log(arr.get(0)); // World
+
+// node array.js
